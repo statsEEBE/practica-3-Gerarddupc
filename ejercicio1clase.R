@@ -6,3 +6,5 @@ f<- c(0.68,0.32)
 plot(x,f,type="h", ylim = c(0,1), col = "red")
 
 points(x,f, pch=16, col="red")
+n<- 43
+sample(x,n,f, replace=TRUE)
